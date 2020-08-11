@@ -25,10 +25,10 @@ print(floating, integer, string, boolean)
 
 # QUESTION 1: how do you make a multi-line comment?
 """
-Like this. I am using three double quotes and I can
+Like this. I am using three double quotes that could be put above or 
+to the side of the comment and I can
 write multiple lines as
-long as i close it with another
-"""
+long as i close it with another of these:"""
 
 # QUESTION 2: what data type is each of these variables?
 one = False
