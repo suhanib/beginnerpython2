@@ -42,10 +42,14 @@ elif (age > 150):
 else:
     print("You are too young")
 
-weight = 100
-if (weight <= 100 and age >= 13):
+weight
+if (weight <= 120 and age >= 13):
     print("You can take a large coke and medium popcorn to the movie.")
-elif (weight >=101 and weight <=120 and age >=13):
+elif (weight >=121 and weight <=180 and age >=13):
     print("You can take a small coke and small popcorn.")
-else:
+elif (weight >= 181 and age < 16 and age > 13):
     print("No coke, no popcorn.")
+elif (weight >= 182 and weight <= 220 and age > 16)
+    print("coke for you")
+else:
+    print("no coke")
