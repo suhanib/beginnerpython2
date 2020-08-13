@@ -1,4 +1,6 @@
-age = 0 + 13
-age +=2
 
-print(age)
+
+
+age = input("What is your age?")
+if (age > 13):
+    print("You are legally allowed to watch PG-13 movies.")
