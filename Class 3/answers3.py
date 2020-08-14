@@ -31,7 +31,7 @@ hi = False
 if (hi):
     print("Python is great!")
 
-age = 50
+age = 20
 
 if (age == 13):
     print("This must be your first time watching a PG-13 Movie!")   
@@ -42,14 +42,53 @@ elif (age > 150):
 else:
     print("You are too young")
 
-weight
-if (weight <= 120 and age >= 13):
-    print("You can take a large coke and medium popcorn to the movie.")
-elif (weight >=121 and weight <=180 and age >=13):
-    print("You can take a small coke and small popcorn.")
-elif (weight >= 181 and age < 16 and age > 13):
-    print("No coke, no popcorn.")
-elif (weight >= 182 and weight <= 220 and age > 16)
-    print("coke for you")
+#last name first letter
+A = False
+B = False
+C = False
+D = False
+E = False
+F = False
+G = False
+H = False
+I = False 
+J = False
+K = False
+L = False
+M = False
+N = False
+O = False
+P = False
+Q = False
+R = False
+S = False
+T = False
+U = False
+V = True
+W = False
+X = False
+Y = False
+Z = False
+
+age = 16
+if (age >= 18 and age < 23):
+    school = "college"
+if (age >= 14 and age < 18):
+    school = "high school"
+if (age >= 11 and age < 14):
+    school = "middle school"
+if (age >= 6 and age < 11):
+    school = "elementary school"
+if (age < 6 or age >= 23):
+    print ("You don't go to school")
+    school = "X"
+elif (A or B or C or D or E or F or G or H or I or J or K or L or M):
+    print("You go on Monday and Tuesday to your" , school)
+elif (N or O or P or Q or R or S or T or U or V or W or X or Y or Z):
+    print("You go on Thursday and Friday to your" , school)
+
+alphabet = "Z" 
+if (alphabet < "m"):
+    print("hi")
 else:
-    print("no coke")
+    print("bye")
