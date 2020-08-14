@@ -1,3 +1,5 @@
+# CLASS 3 PRACTICE
+
 print(4 + 7)
 print("4 + 7")
 add = 234 + 684
@@ -92,3 +94,57 @@ if (alphabet < "m"):
     print("hi")
 else:
     print("bye")
+
+# CLASS 3 HOMEWORK
+
+# QUESTION 1:
+"""
+A company decided to give a bonus of 5% to employees who have worked there for more than 5 years.
+Write a program that will print out the total amount the employee will earn given their current salary and how many years they have worked.
+Test it by changing the value of the years variable from under 5 to over 5.
+"""
+salary = 90000
+years = 4.999999999999999999999999999999
+# 16 9's makes it round up to 5. Do you know why its only accurate up to there. Also where do i see your comments
+
+if (years >= 5):
+    print("You earn", salary * 1.05)
+else:
+    print("You earn", salary, ". Sorry no bonus this time. You will have to work for", 5 - years, "more years to start earning a bonus.")
+
+# OR
+
+if (years >= 5):
+    salary *= 1.05
+print("You earn", salary)
+
+# First one is more accurate because the salary isn't actualy changed by bonus
+
+# QUESTION 2: 
+"""
+A school has the following rules for their grading system:
+    - above 90: A
+    - 80 to 89: B
+    - 70 to 79: C
+    - 60 to 69: D
+    - below 60: F
+Create a program that will print out a letter grade based on the value of an integer variable storing a number grade.
+Test it by changing the value of the numberGrade variable.
+"""
+numberGrade = 79
+
+
+if (numberGrade >= 120):
+    print("You must be joking. We don't give that much extra credit")
+elif (numberGrade >= 90):
+    print("You got an A")
+elif (numberGrade >= 80):
+    print("You got a B")
+elif (numberGrade >= 70):
+    print("You got a C")
+elif (numberGrade >= 60):
+    print("You got a D")
+elif (numberGrade >= 0):
+    print("You got an F")
+elif (numberGrade < 0):
+    print("How?")

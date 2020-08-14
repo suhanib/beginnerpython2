@@ -1,4 +1,4 @@
-# Practice
+# CLASS 2 PRACTICE
 
 print("hello world")
 print("hello", "world")
