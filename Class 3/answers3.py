@@ -1,4 +1,4 @@
-
+"""
 add = 4+3
 print(add) # 7
 add += 2
@@ -30,4 +30,23 @@ if(age >= 13):
     print("You can watch PG-13 movies!")
 else:
     print("Sorry, you can't watch PG-13 movies.")
+"""
+# HW
+salary = 6000
+years = 6
+if(years > 5 ):
+    salary *= 1.05
+print(salary,"dollars")
 
+numberGrade = 73
+if(numberGrade >= 90):
+    print("A")
+elif(80 <= numberGrade <= 90):
+    print("B")
+elif( 70 <= numberGrade <= 79):
+    print("C")
+elif( 60 <= numberGrade <= 69):
+    print("D")
+else:
+    print("F")
+    
