@@ -20,7 +20,7 @@ if (age >= 13):
     print("is allowed to watch a PG-13 movie")
 
 havemintchocolatechip = True
-havecookiedough = False
+havecookiedough = False 
 if (havemintchocolatechip):
     print("I'll have one scoop of mint chocolatechip ice cream in a cup")
 elif (havecookiedough):
