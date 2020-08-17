@@ -107,14 +107,14 @@ salary = 90000
 years = 4.999999999999999999999999999999
 # 16 9's makes it round up to 5. Do you know why its only accurate up to there. Also where do i see your comments
 
-if (years >= 5):
+if (years > 5):
     print("You earn", salary * 1.05)
 else:
     print("You earn", salary, ". Sorry no bonus this time. You will have to work for", 5 - years, "more years to start earning a bonus.")
 
 # OR
 
-if (years >= 5):
+if (years > 5):
     salary *= 1.05
 print("You earn", salary)
 
