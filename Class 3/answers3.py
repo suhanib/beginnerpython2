@@ -7,9 +7,10 @@ elif (age>13):
 salary=90000
 years=6
 if (years>5):
-  salary += 4500
+  salary *= 1.05
   print(salary)
-
+else:
+  print("no bonus")
 numberGrade = 23
 if (numberGrade >= 90):
   print("A")
