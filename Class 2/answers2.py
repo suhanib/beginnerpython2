@@ -12,7 +12,7 @@ grade = 5
 
 woo = 10.2
 fractionofcake = 4.233
-  # bolean 
+  # boolean 
 
 iam248yrsold = False
 me = True
@@ -20,3 +20,6 @@ me = True
 
 me = "my name is nishka"
 food = " My favorite food is pizza"
+wo = "ok"
+print("if i just complete this then I can talk to you" , wo )
+print("Why")
