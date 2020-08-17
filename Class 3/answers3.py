@@ -31,24 +31,14 @@ else:
 yearsworked = 5
 if(yearsworked <= 5):
     print("This employee will get a 5 percent bonus on their paycheck")
-
-A = 90-100
-B = 80-89
-C = 70-79
-D = 60-69
-F = 0-59
 numbergrade = 77
-if(numbergrade = 60-69) :
-    print("i got a d on my test")
-if(numbergrade = 70-79) :
-    print("I got a c on my test")
-if(numbergrade = 80-89) :
-    print("I got a b on my test")
-if(numbergrade = 90-100) :
-    print("I got an a on my test")
-if(numbergrade = 0-59) :
-    print("I got a f on my test")
-
-
-
-
+if(numbergrade = >= 60) :
+    print("D")
+elif (numbergrade >= 70) :
+    print("C")
+elif (numbergrade >= 80) :
+    print("B")
+elif (numbergrade >= 90) :
+    print("A")
+elif numbergrade >= 59 :
+    print("F")
