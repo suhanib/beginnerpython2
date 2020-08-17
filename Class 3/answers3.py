@@ -28,17 +28,21 @@ elif (havecookiedough):
 else:
     print("I'll have one scoop of vanilla ice cream in a cone") 
 
-yearsworked = 5
-if(yearsworked <= 5):
-    print("This employee will get a 5 percent bonus on their paycheck")
-numbergrade = 77
-if(numbergrade = >= 60) :
-    print("D")
-elif (numbergrade >= 70) :
-    print("C")
-elif (numbergrade >= 80) :
-    print("B")
-elif (numbergrade >= 90) :
+yearsworked = 6
+salary = 7000
+if (yearsworked > 5):
+    print("In total, you will earn", salary * 1.05)
+else:
+    print("you won't get a bounus")
+
+numbergrade = 85
+if (numbergrade >= 90):
     print("A")
-elif numbergrade >= 59 :
+elif (numbergrade >= 80):
+    print("B")
+elif (numbergrade >= 70):
+    print("C")
+elif (numbergrade >= 60):
+    print("D")
+else:
     print("F")
