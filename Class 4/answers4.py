@@ -45,7 +45,6 @@ print("That was yummy!")
 n=10
 print((n*(n+1))/2)
 
-
 # QUESTION 2: write a program that finds all numbers which are divisible by both 5 and 7, between 1500 and 2700 (both included)
 var = 1505
 
