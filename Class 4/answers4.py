@@ -52,6 +52,18 @@ var = 1505
 while (var < 2701):
     print (var)
     var += 35
+    
+# OR
+
+for i in range(1500, 2700):
+    if (i%35 == 0):
+        print(i)
+
+# OR 
+
+for i in range(1500, 2700):
+    if (i%7 == 0 and i%5 == 0):
+        print(i)
 
 # QUESTION 3: what's missing in this while loop?
 x = 10
