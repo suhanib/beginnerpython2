@@ -1,12 +1,7 @@
-for i in range(1,8):
-    print("Vansh")
+import requests
+from bs4 import BeautifulSoup
 
-chips = 10
-while(chips >0):
-    print("You ate one chip.")
-    chips -= 1
-
-    import pickle
+import pickle
 
 while True:
   redo_string = ["r", "yes"]
