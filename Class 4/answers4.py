@@ -1,4 +1,4 @@
-# and & or are logical operators
+# CLASS 4 PRACTICE
 rainy = True
 sunny = True
 
@@ -36,3 +36,26 @@ while (numChips > 0):
     numChips -= 1
     print("Crunch. You have", numChips, "chips left.")
 print("That was yummy!")
+
+# CLASS 4 HOMEWORK
+
+# QUESTION 1: sum up all numbers from 1 to a number of your choice
+# for example, if i choose 10, then i should print out a sum of 55
+
+n=10
+print((n*(n+1))/2)
+
+
+# QUESTION 2: write a program that finds all numbers which are divisible by both 5 and 7, between 1500 and 2700 (both included)
+var = 1505
+
+while (var < 2701):
+    print (var)
+    var += 35
+
+# QUESTION 3: what's missing in this while loop?
+x = 10
+while (x > 0):
+    print(x)
+    x -= 1 # <-- inserted code
+print("liftoff!")
