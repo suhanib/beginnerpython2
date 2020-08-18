@@ -12,7 +12,7 @@ salary = 90000
 years = 6
 
 # QUESTION 2: 
-"""
+""" 
 A school has the following rules for their grading system:
     - above 90: A
     - 80 to 89: B
