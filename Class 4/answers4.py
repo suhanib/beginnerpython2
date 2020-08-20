@@ -42,8 +42,15 @@ print("That was yummy!")
 # QUESTION 1: sum up all numbers from 1 to a number of your choice
 # for example, if i choose 10, then i should print out a sum of 55
 
-n=10
+n=6
+add = 0
+
 print((n*(n+1))/2)
+
+for i in range(1, n+1):
+    add += i
+print(add)
+add = 0
 
 # QUESTION 2: write a program that finds all numbers which are divisible by both 5 and 7, between 1500 and 2700 (both included)
 var = 1505
