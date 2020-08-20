@@ -9,7 +9,6 @@ print("my favorite number is" + 343 + "bc it is " + 7.0 + " squared. i also like
 # QUESTION 2: remove all "a"s from this string to reveal the hidden word.
 # hint: take a look at the Python documentation which has some more string methods we didn't go over!
 # https://docs.python.org/2.5/lib/string-methods.html
-string = "aasaAauAaamaAmaAAaaeaaAAAraaaa"
 
 # QUESTION 3: evaluate someone's password!
 """
