@@ -47,6 +47,8 @@ add = 0
 
 print((n*(n+1))/2)
 
+# OR
+
 for i in range(1, n+1):
     add += i
 print(add)
