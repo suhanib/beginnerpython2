@@ -1,0 +1,15 @@
+
+
+
+salary = input("Enter your Annual Salary: ")
+years = input("Enter your Years of service completed: ") 
+print("Annual Salary you entered as:", salary)
+print("Years of service completed are:", years)  
+
+
+bonus = salary * years / 100
+
+if (years> 5):
+	print("Your salary is", bonus)
+else
+	print("You are not qualified for bonus as you didn't complete more than 5 years of total service")
