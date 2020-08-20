@@ -12,9 +12,18 @@ else:
 
 for i in range(1,8):
   print("Anika")
+
 chips=10
 while(chips>0):
   chips -= 1
   print("ate one chip")
 print("bag is empty")
+
+
+x=10
+while (x>0):
+  print(x)
+  x -= 1
+print("liftoff!")
+
 
