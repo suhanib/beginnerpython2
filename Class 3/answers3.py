@@ -7,9 +7,9 @@ elif ("timeworked < 5"):
  
 numberGrade = 77
 
-if ("numberGrade > 90"):
+if (numberGrade > 90):
     print ("A")
-elif ("numberGrade > 80 < 90"):
+elif (numberGrade > 80 < 90):
     print ("B")
-elif ("numberGrade >70 < 80"):
+elif (numberGrade >70 < 80):
     print ("C")
