@@ -63,13 +63,13 @@ while (var < 2701):
     
 # OR
 
-for i in range(1500, 2700):
+for i in range(1500, 2701):
     if (i%35 == 0):
         print(i)
 
 # OR 
 
-for i in range(1500, 2700):
+for i in range(1500, 2701):
     if (i%7 == 0 and i%5 == 0):
         print(i)
 
