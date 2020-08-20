@@ -19,3 +19,27 @@ chips = 10
 while (chips >= 0):
     print (chips)
     chips -= 1
+
+#Homework
+
+#Question 3
+x = 10
+while (x > 0):
+    print(x)
+    x -= 1
+print("liftoff!")
+
+
+#Question 1 (Number chosen 3)
+
+#?
+
+#Question 2 
+
+#?
+
+
+
+
+
+
