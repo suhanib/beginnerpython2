@@ -1,3 +1,5 @@
+
+"""
 height = 55
 age = 12
 
@@ -21,3 +23,21 @@ chips = 10
 while (chips >0):
     chips -= 1
     print("You ate one chip, you now have", chips, "chips")
+"""
+#Homework
+
+
+#1
+num1 = int(input("Enter an integer: "))
+total = 0
+for i in range (1, num1 + 1):
+    total += i
+print(total)
+
+#2 
+for i in range (1500, 2701):
+    if (i % 5 == 0 and i % 7 == 0):
+        print(i)
+
+
+#3. The missing line is x -= 1
