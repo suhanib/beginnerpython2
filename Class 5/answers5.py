@@ -15,8 +15,7 @@ print("The hidden word is " + string.lower().replace("a","") + "!!!!")
 #password = "ooooooooo"
 #password = "33333778"
 #password = "3333333jjjjjjjjjjjj"
-#password = "Tsasw3333333"
-
+password = "Tsasw3333333"
 if (not password.islower() and not password.isalpha() and not password.isdigit()):
      print("good password")
 else:
