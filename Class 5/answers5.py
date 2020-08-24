@@ -14,6 +14,14 @@ print(float(example))
 #Homework
 print("my favorite number is 343 bc it is 7 squared. i also like 64.")
 
-#? Word = summer
+#Homework
+print("my favorite number is 343 bc it is 7 squared. i also like 64.")
+
+# Word = summer
+string = "aasaAauAaamaAmaAAaaeaaAAAraaaa"
+string1=string.replace('a','')
+
+print(string1.replace('A', ''))
+#? Strings are hard, I need more practice with them
 
 #? Strings are hard, I need more practice with them
