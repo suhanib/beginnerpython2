@@ -1,7 +1,4 @@
-import requests
-from bs4 import BeautifulSoup
-
-import pickle
+    import pickle
 
 while True:
   redo_string = ["r", "yes"]
