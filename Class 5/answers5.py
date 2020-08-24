@@ -11,4 +11,4 @@ print(float(example))
 print("my favorite number is 343 bc it is 7 squared, I also like 64.")
 
 string = "aasaAauAaamaAmaAAaaeaaAAAraaa"
-string1 = string ("a", "")
+string1 = string replace ("a", "")
