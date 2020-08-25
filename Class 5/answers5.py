@@ -37,13 +37,18 @@ print("my favorite number is " + str(343) + " bc it is " + str(int(7.0)) + " squ
 # https://docs.python.org/2.5/lib/string-methods.html
 
 string = "aasaAauAaamaAmaAAaaeaaAAAraaaa"
-
+"""
 while("A" in string or "a" in string):
     if(string.startswith("a") or string.startswith("A")):
         string = string.lstrip("aA")
     else:
         print(string[0])
         string = string.lstrip(string[0])
+"""
+string = string.replace("a", "")
+string = string.replace("A", "")
+print(string)
+
 
 # QUESTION 3: evaluate someone's password!
 """
