@@ -14,8 +14,6 @@ print(float(example))
 #Homework
 print("my favorite number is 343 bc it is 7 squared. i also like 64.")
 
-#Homework
-print("my favorite number is 343 bc it is 7 squared. i also like 64.")
 
 # Word = summer
 string = "aasaAauAaamaAmaAAaaeaaAAAraaaa"
