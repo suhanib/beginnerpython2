@@ -43,7 +43,12 @@ for value in list(favoriteColor.values()):
 for key in favoriteColor:
     if(favoriteColor[key] in values):
         keys.append(key)
-print("The keys are " + str(keys) + ", and the values are " + str(values) + ".")
+newColorDictionary = {}
+index = 0
+for key in keys:
+    newColorDictionary[key] = values[index]
+    index += 1
+print(newColorDictionary)
 
 
 # SOME EXTRA LIST QUESTIONS
