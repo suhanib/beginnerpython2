@@ -1,4 +1,4 @@
-    import pickle
+import pickle
 
 while True:
   redo_string = ["r", "yes"]
