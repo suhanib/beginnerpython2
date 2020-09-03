@@ -1,3 +1,10 @@
+#how to print contents of a loop and value of iterator - saved so i dont forget
+'''
+for itr in range(len(keys)):
+    print(itr)
+    print(keys[itr])
+'''
+
 #Try it on your own
 grocerylist = ["eggs", "apples", "milk", "choclate", "instant coffee", "plastic cups", "chips"]
 print(grocerylist[0])
