@@ -21,7 +21,6 @@ print(add(List))
 # QUESTION 2: write a function that takes in a list of keys and a list of values and returns a dictionary made from those lists.
 
 def dictCombine(dictName, keyList, valueList):
-    dictName = {}
     for i in range(0, len(keyList)):
         dictName[keyList[i]] = valueList[i]
     return dictName
@@ -36,7 +35,7 @@ print(dictCombine(Opposite_Colors, colorKey, colorValue))
 def vowelCount(string):
     return string.count('a') + string.count('e') + string.count('i') + string.count('o') + string.count('u')
 
-print("Your string has" + vowelCount("This sentence has 7 vowels"), "vowels")
+print("Your string has" + str(vowelCount("This sentence has 7 vowels")), "vowels")
 
 # QUESTION 4: write a function to reverse a string.
 
