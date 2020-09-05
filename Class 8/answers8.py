@@ -43,7 +43,6 @@ print(findVowels(str5))
 
 # QUESTION 4: write a function to reverse a string.
 def backwards(listname):
-    print(listname)
     mylist3 =[]
     listLen = len(listname)
     for c in range(listLen): 
