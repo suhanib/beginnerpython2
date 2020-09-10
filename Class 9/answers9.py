@@ -16,6 +16,7 @@ questionTwo(numbers)
 # read the file and make the user answer the questions from the file. 
 # save the user's answers and compare them to your answers. create a new output
 # file which says whether they got each question right or wrong as well as their total score
+
 f = open("questionThree.txt", "r")
 questions = {}
 
