@@ -34,13 +34,13 @@ while(retry):
     3 three
 """
 dictionary = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
-"""
+
 a = open("homework.txt", "a")
 
 for i in range(0, len(dictionary.keys())):
     a.write(str(list(dictionary.keys())[i]) + str("  "))
     a.write(list(dictionary.values())[i] + "\n")
-"""
+a.close()
 # QUESTION 3: create a text file with some questions and answers in it. 
 # read the file and make the user answer the questions from the file. 
 # save the user's answers and compare them to your answers. create a new output
