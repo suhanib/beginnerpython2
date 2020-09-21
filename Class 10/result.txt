@@ -1,0 +1,4 @@
+wrong
+right
+wrong
+your score: 1
